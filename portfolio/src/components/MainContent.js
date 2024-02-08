@@ -1,4 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPython,
+  faJs,
+  faReact,
+  faHtml5,
+  faCss3Alt,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Maincontent = () => {
   return (
@@ -11,12 +19,18 @@ const Maincontent = () => {
         <div className="imageSection"></div>
         <div className="infoSectiom">
           <div className="infoName">
-            <h2>Reynald Bartiana</h2>
+            <h1>Reynald Bartiana</h1>
           </div>
           <div className="infoTitle">
             <h4>Software Developer / Firmware Engineer</h4>
           </div>
-          <div className="infoProgLang"></div>
+          <div className="infoProgLang">
+            <FontAwesomeIcon icon={faPython} className="infoProgLangIcon" />
+            <FontAwesomeIcon icon={faJs} className="infoProgLangIcon" />
+            <FontAwesomeIcon icon={faReact} className="infoProgLangIcon" />
+            <FontAwesomeIcon icon={faHtml5} className="infoProgLangIcon" />
+            <FontAwesomeIcon icon={faCss3Alt} className="infoProgLangIcon" />
+          </div>
           <div className="infoDescription">
             <p>lorem ipsum</p>
           </div>

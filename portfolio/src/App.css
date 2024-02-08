@@ -83,8 +83,8 @@
   height: 100%;
   float: right;
   background-image: url(./images/Formal_Picture.png);
-  background-size: cover; /* Ensure the background image covers the entire div */
-  background-position: center; /* Center the background image */
+  background-size: cover;
+  background-position: center;
   border-radius: 10px;
 }
 
@@ -96,8 +96,13 @@
 
 .infoName,
 .infoTitle,
+.infoProgLang,
 .infoDescription {
   text-align: left;
+}
+.infoProgLangIcon {
+  font-size: 20px; /* Adjust the size as needed */
+  margin-right: 20px; /* Adjust the spacing as needed */
 }
 
 /* shapes */

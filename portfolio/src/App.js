@@ -1,4 +1,3 @@
-import LandP from "./components/LandP";
 import Maincontent from "./components/MainContent";
 import Nav from "./components/Nav";
 import "./App.css";
