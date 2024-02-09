@@ -37,11 +37,12 @@
     transform: rotate(360deg);
   }
 }
+/* Navigation Content */
 .Nav {
   display: flex;
   justify-content: flex-end;
   padding: 1rem 2rem;
-  background: #111111;
+  background: #181818;
 }
 
 .Nav ul {
@@ -59,9 +60,14 @@
 }
 
 .Nav li a:hover {
-  color: yellow;
+  color: #fdd726;
+}
+.NavIcon {
+  font-size: 25px;
+  padding-left: 20px;
 }
 
+/* Maincontent */
 .MainContent {
   text-align: center;
   height: 100vh;
@@ -164,7 +170,6 @@
   backdrop-filter: blur(10px);
   border-radius: 10px;
 }
-
 .prjtNav {
   display: flex;
   flex-direction: column;
