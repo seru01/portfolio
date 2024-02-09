@@ -14,8 +14,8 @@ const Maincontent = () => {
       <div class="triangle-down"></div>
       <div class="circle"></div>
       <div class="square"></div>
-
-      <div className="Card Profile">
+      {/* Profile Info Section */}
+      <div className="Card Profile" id="profileContent">
         <div className="imageSection"></div>
         <div className="infoSectiom">
           <div className="infoName">
@@ -35,6 +35,17 @@ const Maincontent = () => {
             <p>lorem ipsum</p>
           </div>
         </div>
+      </div>
+      {/* Project Content */}
+      <div className="projectContent" id="projectContent">
+        <div className="prjtNav"></div>
+        <div className="prjtDescrptn">
+          <div className="DescrptnTitle">
+            <h1>SENTRY</h1>
+          </div>
+          <div className="DescrptnContent">Sentry is a roobot</div>
+        </div>
+        <div className="projectImg"></div>
       </div>
     </div>
   );

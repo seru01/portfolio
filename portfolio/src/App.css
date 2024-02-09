@@ -39,7 +39,7 @@
 }
 .Nav {
   display: flex;
-  justify-content: flex-end; /* Align items to the left */
+  justify-content: flex-end;
   padding: 1rem 2rem;
   background: #111111;
 }
@@ -59,52 +59,14 @@
 }
 
 .Nav li a:hover {
-  color: yellow; /* Change color on hover */
+  color: yellow;
 }
 
 .MainContent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   height: 100vh;
 }
-
-.Card.Profile {
-  width: 800px;
-  height: 400px;
-  padding: 50px;
-  background-color: rgba(59, 59, 59, 0.2);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-}
-
-.imageSection {
-  width: 50%;
-  height: 100%;
-  float: right;
-  background-image: url(./images/Formal_Picture.png);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-}
-
-.infoSection {
-  width: 50%;
-  height: 100%;
-  float: left;
-}
-
-.infoName,
-.infoTitle,
-.infoProgLang,
-.infoDescription {
-  text-align: left;
-}
-.infoProgLangIcon {
-  font-size: 20px; /* Adjust the size as needed */
-  margin-right: 20px; /* Adjust the spacing as needed */
-}
-
+/* Maincontent Elements */
 /* shapes */
 .triangle-down {
   width: 0;
@@ -134,4 +96,89 @@
   position: absolute;
   top: 200px;
   left: 200px;
+}
+
+.squareNoIn {
+  height: 50px;
+  width: 50px;
+  background-color: #8400ff;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+/* Profile Content */
+.Card.Profile {
+  display: inline-block;
+  width: 800px;
+  height: 400px;
+  padding: 50px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  background-color: rgba(59, 59, 59, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.imageSection {
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-image: url(./images/Formal_Picture.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.infoSection {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.infoName,
+.infoTitle,
+.infoProgLang,
+.infoDescription {
+  text-align: left;
+}
+.infoProgLangIcon {
+  font-size: 20px;
+  margin-right: 20px;
+}
+/* Project Content */
+.projectContent {
+  display: flex; /* Use flexbox */
+  width: 800px; /* Adjust width as needed */
+  height: 400px;
+  padding: 50px;
+  background-color: rgba(59, 59, 59, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin: 0 auto; /* Center horizontally */
+}
+
+
+.prjtNav {
+  width: 50px;
+  height: 100%;
+  background-color: #4e4e4e;
+  border-radius: 50px;
+}
+
+.prjtDescrptn {
+  flex: 1; /* Take up remaining space */
+  padding-left: 20px;
+}
+
+.DescrptnTitle,
+.DescrptnContent {
+  text-align: left;
+}
+
+.projectImg {
+  width: 50%;
+  background-image: url(./images/Formal_Picture.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
