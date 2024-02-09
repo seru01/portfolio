@@ -57,10 +57,11 @@
 .Nav li a {
   text-decoration: none;
   color: #ffffff;
+  transition: color 1s ease;
 }
 
 .Nav li a:hover {
-  color: #fdd726;
+  color: #00ffaa;
 }
 .NavIcon {
   font-size: 25px;
@@ -228,4 +229,5 @@
   background-color: #202020;
   background-position: center;
   border-radius: 10px;
+  transition: 1s ease;
 }
