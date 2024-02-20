@@ -108,6 +108,19 @@ const MainContent = () => {
           }}
         ></div>
       </div>
+      {/* Contact Info Content */}
+      <div className="Contact_info_Content" id="Contact_info_Content">
+        <div className="ContactTitle">
+          <span className="ContactText">CONTACT</span>
+        </div>
+        <div className="ContactContent">
+          <div className="EmailContent">
+            <p>Name</p>
+          </div>
+          <div className="LocationContent"></div>
+          <div className="SocialContent"></div>
+        </div>
+      </div>
     </div>
   );
 };

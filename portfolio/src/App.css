@@ -231,3 +231,53 @@
   border-radius: 10px;
   transition: 1s ease;
 }
+/* Contact Info Content */
+.Contact_info_Content {
+  display: inline-block;
+  width: 800px;
+  height: 400px;
+  padding: 50px;
+  margin-top: 80px;
+  background-color: rgba(59, 59, 59, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding-top: 10px;
+}
+.ContactText {
+  font-size: 25px;
+  font-weight: bolder;
+  font-stretch: extra-expanded;
+  letter-spacing: 4px;
+}
+.ContactContent {
+  display: inline-block;
+  width: 800px;
+  height: 400px;
+  margin-top: 10px;
+  background-color: rgb(255, 187, 0);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+.EmailContent {
+  background-color: palevioletred;
+  height: 100%;
+  width: 400px;
+  float: left;
+  border-radius: 10px;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+.LocationContent {
+  background-color: rgb(60, 255, 0);
+  height: 50%;
+  width: 400px;
+  float: right;
+  border-top-right-radius: 10px;
+}
+.SocialContent {
+  background-color: rgb(111, 0, 255);
+  height: 50%;
+  width: 400px;
+  float: right;
+  border-bottom-right-radius: 10px;
+}
