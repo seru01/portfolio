@@ -115,7 +115,34 @@ const MainContent = () => {
         </div>
         <div className="ContactContent">
           <div className="EmailContent">
-            <p>Name</p>
+            <form>
+              <div class="form-group">
+                <label className="EmailLabel">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="name"
+                  required
+                ></input>
+                <label className="EmailLabel">Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="@email.com"
+                  required
+                ></input>
+                <label className="EmailLabel">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="message.."
+                  required
+                ></textarea>
+                <button type="submit">Send</button>
+              </div>
+            </form>
           </div>
           <div className="LocationContent"></div>
           <div className="SocialContent"></div>

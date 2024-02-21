@@ -254,12 +254,12 @@
   width: 800px;
   height: 400px;
   margin-top: 10px;
-  background-color: rgb(255, 187, 0);
+  /* background-color: rgb(255, 187, 0); */
   backdrop-filter: blur(10px);
   border-radius: 10px;
 }
 .EmailContent {
-  background-color: palevioletred;
+  /* background-color: palevioletred; */
   height: 100%;
   width: 400px;
   float: left;
@@ -280,4 +280,43 @@
   width: 400px;
   float: right;
   border-bottom-right-radius: 10px;
+}
+form {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.EmailLabel {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-left: 5px;
+  font-size: large;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+input[type="text"],
+textarea {
+  width: calc(100% - 10px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px solid #ccc;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: white;
+}
+textarea {
+  height: 150px;
+}
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 200px;
 }

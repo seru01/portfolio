@@ -20,7 +20,7 @@ const Nav = () => {
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#Contact_info_Content">
             <FontAwesomeIcon icon={faEnvelope} className="NavIcon" />
           </a>
         </li>
