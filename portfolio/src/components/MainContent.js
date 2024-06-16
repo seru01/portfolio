@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import formalPicture1 from "../images/Formal_C_Picture.jpg";
 import formalPicture2 from "../images/Formal_Picture.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import {
+  faChevronUp,
+  faChevronDown,
+  faC,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faPython,
   faJs,
@@ -61,12 +65,13 @@ const MainContent = () => {
         <div className="imageSection"></div>
         <div className="infoSectiom">
           <div className="infoName">
-            <h1>Reynald Bartiana</h1>
+            <p>Reynald Bartiana &lt;RB/&gt;</p>
           </div>
           <div className="infoTitle">
             <h4>Software Developer / Firmware Engineer</h4>
           </div>
           <div className="infoProgLang">
+            <FontAwesomeIcon icon={faC} className="infoProgLangIcon" />
             <FontAwesomeIcon icon={faPython} className="infoProgLangIcon" />
             <FontAwesomeIcon icon={faJs} className="infoProgLangIcon" />
             <FontAwesomeIcon icon={faReact} className="infoProgLangIcon" />
@@ -74,7 +79,17 @@ const MainContent = () => {
             <FontAwesomeIcon icon={faCss3Alt} className="infoProgLangIcon" />
           </div>
           <div className="infoDescription">
-            <p>lorem ipsum</p>
+            <p>
+              Hey there! 👋 I'm a passionate Software Developer based in Las
+              Piñas, NCR, Philippines, currently leading the software
+              development efforts on an exciting IoT project. My focus is on
+              optimizing urban infrastructure using cutting-edge technologies,
+              showcasing my technical expertise and commitment to quality
+              solutions in dynamic environments. I'm always eager to tackle new
+              challenges and collaborate on meaningful projects, so if you're
+              passionate about innovation, let's connect and build something
+              incredible together! 🚀
+            </p>
           </div>
         </div>
       </div>
@@ -108,8 +123,16 @@ const MainContent = () => {
           }}
         ></div>
       </div>
+      <div className="infofooter">
+        <p>
+          Reynald Bartiana <br />
+          &#169; 2024
+          <br />
+          0.0.1 v
+        </p>
+      </div>
       {/* Contact Info Content */}
-      <div className="Contact_info_Content" id="Contact_info_Content">
+      {/* <div className="Contact_info_Content" id="Contact_info_Content">
         <div className="ContactTitle">
           <span className="ContactText">CONTACT</span>
         </div>
@@ -144,10 +167,12 @@ const MainContent = () => {
               </div>
             </form>
           </div>
-          <div className="LocationContent"></div>
+          <div className="LocationContent">
+
+          </div>
           <div className="SocialContent"></div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

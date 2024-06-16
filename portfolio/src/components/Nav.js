@@ -1,27 +1,33 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faAddressCard,
-  faFolderOpen,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons";
+  faLinkedin,
+  faGithub,
+  faXTwitter,
+  faDev,
+} from "@fortawesome/free-brands-svg-icons";
 const Nav = () => {
   return (
     <div className="Nav">
       <ul>
         <li>
-          <a href="#profileContent">
-            <FontAwesomeIcon icon={faAddressCard} className="NavIcon" />
+          <a href="https://www.linkedin.com/in/reynald-bartiana-58a523260/">
+            <FontAwesomeIcon icon={faLinkedin} className="NavIcon" />
           </a>
         </li>
         <li>
-          <a href="#projectContent">
-            <FontAwesomeIcon icon={faFolderOpen} className="NavIcon" />
+          <a href="https://github.com/seru01">
+            <FontAwesomeIcon icon={faGithub} className="NavIcon" />
+          </a>
+        </li>
+        <li>
+          <a href="https://app.daily.dev/seru01">
+            <FontAwesomeIcon icon={faDev} className="NavIcon" />
           </a>
         </li>
         <li>
           <a href="#Contact_info_Content">
-            <FontAwesomeIcon icon={faEnvelope} className="NavIcon" />
+            <FontAwesomeIcon icon={faXTwitter} className="NavIcon" />
           </a>
         </li>
       </ul>
