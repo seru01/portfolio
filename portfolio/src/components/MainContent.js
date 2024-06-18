@@ -31,25 +31,71 @@ const MainContent = () => {
   switch (itemCount) {
     case 1:
       projectImg = formalPicture1;
-      descrptnTitle = "Sentry";
-      descrptnContent =
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy";
-      break;
-    case 2:
-      projectImg = formalPicture2;
       descrptnTitle = "GEO Street Light";
       descrptnContent = (
         <span>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy
+          Embedded IOT Software/Hardare
           <br />
           Lorem Ipsum has been the industry's standard dummy
         </span>
       );
       break;
-    // Add cases for other itemCount values if needed
+    case 2:
+      projectImg = formalPicture2;
+      descrptnTitle = "Bill Counter External Display";
+      descrptnContent = (
+        <span>
+          Reverse Engineering Hardare
+          <br />
+          Lorem Ipsum has been the industry's standard dummy
+        </span>
+      );
+      break;
+    case 3:
+      projectImg = formalPicture2;
+      descrptnTitle = "Score Board IOT";
+      descrptnContent = (
+        <span>
+          Embedded IOT Software/Hardare
+          <br />
+          Lorem Ipsum has been the industry's standard dummy
+        </span>
+      );
+      break;
+    case 4:
+      projectImg = formalPicture2;
+      descrptnTitle = "Sentry";
+      descrptnContent = (
+        <span>
+          Embedded System Software/Hardare
+          <br />
+          Lorem Ipsum has been the industry's standard dummy
+        </span>
+      );
+      break;
+    case 5:
+      projectImg = formalPicture2;
+      descrptnTitle = "Security System";
+      descrptnContent = (
+        <span>
+          Embedded System Software
+          <br />
+          Lorem Ipsum has been the industry's standard dummy
+        </span>
+      );
+      break;
+    case 6:
+      projectImg = formalPicture2;
+      descrptnTitle = "Starry LED";
+      descrptnContent = (
+        <span>
+          Embedded System Software/Hardare
+          <br />
+          Lorem Ipsum has been the industry's standard dummy
+        </span>
+      );
+      break;
     default:
-      // Set default values for projectImg, descrptnTitle, and descrptnContent
       break;
   }
 

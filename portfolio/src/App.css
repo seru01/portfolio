@@ -61,11 +61,11 @@
 }
 
 .Nav li a:hover {
-  color: #00ffaa;
+  color: #ff6600;
 }
 .NavIcon {
-  font-size: 25px;
-  padding-left: 20px;
+  font-size: 2vw;
+  padding: 10px;
 }
 
 /* Maincontent */
@@ -225,7 +225,9 @@
   height: 100%;
   float: right;
 }
-
+.DescrptnTitle {
+  color: #ff6600;
+}
 .DescrptnTitle,
 .DescrptnContent {
   text-align: left;
