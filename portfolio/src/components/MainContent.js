@@ -42,7 +42,7 @@ const MainContent = () => {
       break;
     case 2:
       projectImg = formalPicture2;
-      descrptnTitle = "Bill Counter External Display";
+      descrptnTitle = "none";
       descrptnContent = (
         <span>
           Reverse Engineering Hardare
